@@ -1,7 +1,9 @@
 # CSV-Uploader
 Simple csv uploader app using Spring Boot, H2, and React.
 
-App uses JAVA 17
+App uses JAVA 17  
+Server runs on port: **8080**.  
+React application runs on port: **3000**.
 
 ## Running the app
 
@@ -17,9 +19,10 @@ App uses JAVA 17
 #### Starting the React application:
 * Navigate to the **/frontend** directory and run the command: **_npm start_** to start the React app.
 
----
-Server runs on port: **8080**.  
-React application runs on port: **3000**.
+## Input data
+
+* The input must be a .csv file that has the three headers: **name**, **email**, and **phone**.  
+* You can refer to the sample_data.csv file provided in this repository.
 
 ## Using the H2 console
 
